@@ -45,6 +45,7 @@
 .nav-link {
   text-decoration: none;
   color: #171717;
+  text-transform: uppercase;
   transition: color ease-in-out 100ms;
 }
 
