@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 200px;
+  background-color: #171717;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.footer-link {
+  color: #ffffff;
+  font-size: 0.875rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-link:hover {
+  color: #DA0037;
+}
+
+.footer-copy {
+  position: absolute;
+  bottom: 10px;
+  color: #ffffff;
+  font-size: 0.875rem;
+}
