@@ -5,18 +5,7 @@ import Footer from '../../components/Footer';
 import Avatar from '../../components/Avatar'
 import { Link } from 'react-router-dom'
 
-import avatar from '../../assets/images/avatar1.jpg';
-
-const users = [
-  avatar,
-  avatar,
-  avatar,
-  avatar,
-  avatar,
-  avatar,
-  avatar,
-  avatar
-]
+import avatars from '../../data/avatars'
 
 const Home = () => {
   return (
@@ -28,7 +17,7 @@ const Home = () => {
             <h2>Join us and improve your experience as nomad in the city</h2>
             <div className="people">
               {
-                users.map((avatar, index) => (
+                avatars.map((avatar, index) => (
                   <Avatar key={index} src={avatar} />
                 ))
               }
@@ -46,6 +35,18 @@ const Home = () => {
               <button>Join us</button>
               <p>If you already have an account <Link>login</Link></p>
             </form>
+          </div>
+        </section>
+
+        <section className="info">
+          <div className="info-1">
+            <h3>Find places around the city</h3>
+            <div className="ilustration"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a mollis  ex. Vivamus in porta turpis, a bibendum libero. Duis maximus ac purus  vitae egestas. Donec rhoncus placerat neque, eget blandit lacus bibendum  eget.</p>
+          </div>
+
+          <div className="info-2">
+            <h3>Arrive and work without problems</h3>
           </div>
         </section>
       </main>
