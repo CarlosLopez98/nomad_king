@@ -126,3 +126,145 @@
 }
 
 /* Info */
+.home .info {
+  padding-top: 20px;
+}
+
+.home .info .info-1 {
+  padding: 0 10%;
+}
+
+.home .info .info-1 h3 {
+  margin: 20px 0;
+  font-size: 56px;
+  color: #171717;
+}
+
+.info-1 .ilustration {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.info-1 .ilustration img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 50px 0;
+  background-color: white;
+}
+
+.info-1 .ilustration .box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 750px;
+  height: 450px;
+  border-radius: 50px;
+  background-color: #171717;
+}
+
+.home .info .info-1 p {
+  margin: 20px 0;
+  color: #171717;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+
+/* Segunda ilustracion */
+.home .info .info-2 {
+  padding: 20px 10%;
+  background-color: #DA0037;
+}
+
+.home .info .info-2 h3 {
+  margin: 20px 0;
+  font-size: 56px;
+  color: #ededed;
+  text-align: right;
+}
+
+.info-2 .ilustration {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+.info-2 .ilustration img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50px;
+  background-color: #ededed;
+}
+
+.info-2 .ilustration .circle {
+  position: absolute;
+  bottom: 0;
+  left: 220px;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  background-color: #171717;
+}
+
+.home .info .info-2 p {
+  position: absolute;
+  bottom: 60px;
+  right: 40px;
+  width: 400px;
+  margin: 20px 0;
+  color: #ededed;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+/* Tercera ilustracion */
+.home .info .info-3 {
+  padding: 50px 10%;
+  background-color: #ededed;
+}
+
+.info-3 .ilustration {
+  position: relative;
+  height: 1050px;
+}
+
+.info-3 h3 {
+  font-size: 90px;
+  color: #171717;
+}
+
+.info-3 .text-meet {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+
+.info-3 .text-travel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.info-3 .text-travel span {
+  color: #DA0037;
+}
+
+.info-3 .couple {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.info-3 .travel {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
