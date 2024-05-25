@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import './Landing.css';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Avatar from '../../components/Avatar';
