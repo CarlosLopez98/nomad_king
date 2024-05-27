@@ -1,0 +1,36 @@
+.logoSearch {
+  display: flex;
+  justify-content: stretch;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ededed;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.search > input {
+  width: calc(100% - 32px);
+  padding: 0 4px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DA0037;
+  border-radius: 5px;
+  width: 32px;
+  aspect-ratio: 1;
+  padding: 4px;
+  color: white;
+  cursor: pointer;
+}
