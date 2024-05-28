@@ -1,9 +1,9 @@
-import postPic1 from '../img/postpic1.jpg'
-import postPic2 from '../img/postpic2.jpg'
-import postPic3 from '../img/postpic3.JPG'
+import postPic1 from '../assets/images/postpic1.jpg'
+import postPic2 from '../assets/images/postpic2.jpg'
+import postPic3 from '../assets/images/postpic3.JPG'
 
 
-export const PostsData = [
+export const postsData = [
     {
         img: postPic1,
         name: 'Tzuyu',

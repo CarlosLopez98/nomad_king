@@ -58,3 +58,7 @@ code {
   background-color: #ededed;
   color: #DA0037;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

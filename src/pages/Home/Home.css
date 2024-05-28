@@ -3,10 +3,15 @@
   display: grid;
   grid-template-columns: 18rem auto 20rem;
   gap: 1rem;
+  max-width: 1280px;
   height: 100vh;
+  margin: 0 auto;
   padding: 16px;
+  padding-bottom: 0;
+  overflow: hidden;
 }
 
 .rightSide {
   border: 1px solid black;
+  height: 200px;
 }
