@@ -126,15 +126,15 @@
 }
 
 /* Info */
-.home .info {
+.landing .info {
   padding-top: 20px;
 }
 
-.home .info .info-1 {
+.landing .info .info-1 {
   padding: 0 10%;
 }
 
-.home .info .info-1 h3 {
+.landing .info .info-1 h3 {
   margin: 20px 0;
   font-size: 56px;
   color: #171717;
@@ -164,7 +164,7 @@
   background-color: #171717;
 }
 
-.home .info .info-1 p {
+.landing .info .info-1 p {
   margin: 20px 0;
   color: #171717;
   font-size: 14px;
@@ -175,12 +175,12 @@
 
 
 /* Segunda ilustracion */
-.home .info .info-2 {
+.landing .info .info-2 {
   padding: 20px 10%;
   background-color: #DA0037;
 }
 
-.home .info .info-2 h3 {
+.landing .info .info-2 h3 {
   margin: 20px 0;
   font-size: 56px;
   color: #ededed;
@@ -211,7 +211,7 @@
   background-color: #171717;
 }
 
-.home .info .info-2 p {
+.landing .info .info-2 p {
   position: absolute;
   bottom: 60px;
   right: 40px;
@@ -225,7 +225,7 @@
 }
 
 /* Tercera ilustracion */
-.home .info .info-3 {
+.landing .info .info-3 {
   padding: 50px 10%;
   background-color: #ededed;
 }

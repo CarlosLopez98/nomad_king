@@ -15,7 +15,7 @@ import travelIl from '../../assets/images/travel.svg';
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="landing">
       <Header />
       <main>
         <section className="join-us">
