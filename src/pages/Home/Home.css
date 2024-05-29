@@ -8,5 +8,6 @@
   margin: 0 auto;
   padding: 16px;
   padding-bottom: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
+  scrollbar-width: none;
 }
