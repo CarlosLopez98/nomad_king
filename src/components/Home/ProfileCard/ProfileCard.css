@@ -4,6 +4,7 @@
   flex-direction: column;
   position: relative;
   gap: 1rem;
+  padding-bottom: 1rem;
   overflow: clip;
   background-color: #ededed;
   /* padding-bottom: 1rem; */
@@ -94,6 +95,5 @@
   font-weight: 500;
   color: #DA0037;
   align-self: center;
-  margin-bottom: 1rem;
   cursor: pointer;
 }

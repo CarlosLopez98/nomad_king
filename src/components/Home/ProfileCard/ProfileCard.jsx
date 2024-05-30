@@ -5,6 +5,8 @@ import cover from "../../../assets/images/cover.jpg"
 import profile from "../../../assets/images/profileImg.jpg"
 
 const ProfileCard = () => {
+  const profilePage = true;
+
   return (
     <div className="profileCard">
       <div className="profileImages">
@@ -31,13 +33,25 @@ const ProfileCard = () => {
             <span>1</span>
             <span>Follow</span>
           </div>
+
+          {profilePage ?
+            <>
+              <div className="vl"></div>
+              <div className="follow">
+                <span>3</span>
+                <span>posts</span>
+              </div>
+            </>
+            : ""}
         </div>
         <div className="hl"></div>
       </div>
 
-      <span>
-        My Profile
-      </span>
+      {profilePage ? "" :
+        <span>
+          My Profile
+        </span>
+      }
     </div>
   )
 }
